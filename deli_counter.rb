@@ -29,4 +29,10 @@ take_a_number(katz_deli, "Cardi B")
 
 
 def now_serving(katz_deli)
+  if array.empty? == true 
+    puts "There is nobody waiting to be served!"
+    elsif array.empty? == false 
+    puts "Currently serving #{array.shift}."
+  end
 end
+
