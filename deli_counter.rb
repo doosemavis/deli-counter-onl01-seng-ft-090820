@@ -1,2 +1,7 @@
+katz_deli = []
+
 def line
-end # Write your code here.
+end
+
+def take_a_number(katz_deli, customer_name)
+end 
