@@ -13,19 +13,19 @@ take_a_number(katz_deli, "Cardi B")
 
 
 
-
-def line(array)
-  if array == 0 
+def line(array) 
+  if array.length == 0 
     puts "The line is currently empty."
-  else
+  else 
     message = "The line is currently:"
-    array.each_with_index do |value, index|
-      message += " #{index.to_i+1}. #{value}"
-    end
-    puts "#{message}"
+    
+  array.each_with_index do |value, index| 
+    message += " #{index.to_i+1}. #{value}"
   end 
-end
-
+  puts "#{message}"
+  end 
+end 
+ 
 line(katz_deli)
 
 
