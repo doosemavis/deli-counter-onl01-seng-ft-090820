@@ -13,5 +13,5 @@ take_a_number(katz_deli, "Billie Eilish")
 take_a_number(katz_deli, "Cardi B")
 
 
-def now_serving
+def now_serving(katz_deli)
 end
